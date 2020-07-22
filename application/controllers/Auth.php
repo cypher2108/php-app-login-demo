@@ -25,7 +25,7 @@ class Auth extends CI_Controller
 				$_SESSION['user_logged'] = TRUE;
 				$_SESSION['username'] = $user->username;
 				//redirect to profile page
-				redirect("user/profile", "refresh");
+				redirect("book/index", "refresh");
 			} else {
 				$this->session->set_flashdata("error", "Invalid credentials or no user found");
 				redirect("auth/login", "refresh");

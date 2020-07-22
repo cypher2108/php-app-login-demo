@@ -25,10 +25,6 @@
 
 <div class="container" style="padding-top: 12px;">
 
-	<?php if (isset($_SESSION['success'])) { ?>
-		<div class="alert alert-success"><?php echo $_SESSION['success'] ?></div>
-	<?php } ?>
-
 	<div class="row">
 		<div class="col-md-12">
 			<?php
@@ -50,7 +46,20 @@
 			?>
 		</div>
 	</div>
+
+	<div>
+		<hr>
+
+		<h3>Hello <?php echo $_SESSION['username']; ?></h3>
+
+	</div>
+
 	<div class="row ">
+
+
+
+		<br>
+
 		<div class="col-6" ><h3>View Books</h3></div>
 		<div class="col-6 text-right"><a href="<?php echo base_url().'index.php/Book/add'; ?>" class="btn btn-primary">Add</a></div>
 	</div>

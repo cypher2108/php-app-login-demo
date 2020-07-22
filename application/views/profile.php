@@ -31,7 +31,10 @@
 
 	<h3>Hello <?php echo $_SESSION['username']; ?></h3>
 
-	<br><br>
+	<br>
+
+
+
 
 	<a href="<?php echo base_url() . 'index.php/auth/logout' ?>">Logout</a>
 
