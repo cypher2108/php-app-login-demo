@@ -17,8 +17,7 @@
 	</button>
 	<div class="collapse navbar-collapse" id="myMenu">
 		<ul class="navbar-nav text-center ml-auto">
-			<li class="nav-item"><a class="nav-link"
-									href="<?php echo base_url() . 'index.php/auth/logout' ?>">Logout</a></li>
+			<li class="nav-item"><a class="nav-link" href="<?php echo base_url() . 'index.php/auth/logout' ?>">Logout</a></li>
 		</ul>
 	</div>
 </nav>
